@@ -43,7 +43,7 @@ for k in linspace(dt, T, m):
     u[0] = u[0] - gam*(u[1] - u[-1])/2       # Boundary data
     u[-1] = u[-1] - gam*(u[0] - u[-2])/2
     l1.set_ydata (u)
-    t1.set_text('t=%5.2f' %k)
+    t1.set_text('t = %5.2f'  %k)
     plt.draw()
     plt.pause(0.01)
 
