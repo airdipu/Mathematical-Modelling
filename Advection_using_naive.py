@@ -20,8 +20,9 @@ def u0(x):                  # Initial condition
 # Spatial domain [-L, L] and time [0, T] 
 
 L = 5.
-T = 1.
-h = 0.1                     # Discretization parameters h, dt
+T = 2.
+
+h = 0.05                     # Discretization parameters h, dt
 dt = 0.1
 
 gam = dt/h                  # Grid ratio
@@ -49,4 +50,4 @@ for k in linspace(dt, T, m):
     plt.draw()
     plt.pause(0.2)
 
-#fig.savefig ('naive1.eps')
+fig.savefig ('naive1.eps')
