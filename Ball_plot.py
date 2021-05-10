@@ -8,10 +8,12 @@ Created on Sat Mar 27 23:22:19 2021
 
 from numpy import linspace
 import matplotlib.pyplot as plt
-v0 = 5
-g = 9.81
+
+v0 = 5              # Initial velocity
+g = 9.81            # Acceleration
 t = linspace(0, 1, 1001)
-y = v0*t - 0.5*g*t**2
+y = v0*t - (1/2)*g*t**2
+print(y)
 plt.plot(t, y)
 plt.xlabel('t (s)')
 plt.ylabel('y (m)')
