@@ -23,12 +23,12 @@ def f(u):
 
 # Spatial domain [-L, L] and time [0, T] 
 
-L = 5.01
+L = 5.05
 T = 3.
 
 c = 1.                      # Advection velocity
 
-h = 0.1                     # Discretization parameters h, dt
+h = 0.01                     # Discretization parameters h, dt
 dt = 0.05
 
 gam = dt/h                  # Grid ratio
