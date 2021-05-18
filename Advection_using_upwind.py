@@ -19,7 +19,7 @@ def u0(x):                  # Initial condition
 
 # Spatial domain [-L, L] and time [0, T] 
 
-L = 5.
+L = 5.01
 T = 1.
 h = 0.1                     # Discretization parameters h, dt
 dt = 0.05
