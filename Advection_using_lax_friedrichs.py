@@ -23,7 +23,7 @@ def f(u):
 
 # Spatial domain [-L, L] and time [0, T] 
 
-L = 5.05
+L = 4.05
 T = 3.
 
 c = 1.                      # Advection velocity
